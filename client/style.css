@@ -1,0 +1,68 @@
+
+body {
+  display: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #111; 
+}
+@media screen and (min-width: 767px) {
+  body {
+    display: flex;
+  }
+}
+canvas {
+  display: block;
+}
+
+label {
+  color: black; 
+  font-size: 16px;
+  z-index: 2;
+}
+
+#rotation-slider {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+  transform: translateZ(-50%);
+}
+
+.button-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button{
+  margin-right: 6px;
+  font-size: 12px;
+  width: 70px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.buttonM{
+  font-size: 12px;
+  margin-right: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.updating-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message{
+  align-self: center;
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+}
