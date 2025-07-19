@@ -89,5 +89,4 @@ app.listen(port, () =>{
 })
 module.exports = router;
 
-//117.99.202.154/32
 
