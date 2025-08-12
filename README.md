@@ -1,4 +1,11 @@
-# 3D-cube-controller-apllication: Interactive Web application for real-time rotation and state-persistence.
+# 3D-cube-controller-apllication: An Interactive 3D cube conroller built with Three.js, Node.js, MongoDB.
+
+##Features
+
+•	Real-time cube rotation and movement.
+•	State persistence using MongoDB.
+•	Responsive design with dynamic boundaries.
+•	RESTful API integration for state managment.
 
 project Description:
 In this project we are building the 3D cube.
@@ -13,10 +20,42 @@ Back-end:    Node.js,Express.js
 Database:    MongoDB
 libraries:   Three.js for rendering the cube
 
-core features:
-•	Rotation speed controller
-•	Directional moment
-•	Boundaries to prevent cube from moving off-screen
-•	Real-time updates
+3d-cube-controller/
+│
+├── client/               # HTML, CSS, JS, Three.js
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
+│
+├── server/               # Node.js + Express API
+│   ├── controllers/
+│   ├── models/
+│   ├── Routes/
+|   └── cube-data.js
+|   
+│
+├── README.md
+
+
+clone the repositery:
+git clone https://github.com/jyosthna1/3D-cube-application.git
+cd 3D-cube-application
+
+Install backend dependencies :
+cd server
+npm install
+
+setup Environmental variables
+create .env file in the backend directory
+port = 3000
+MONGODB_URI=mongodb://localhost:5500/3DCubeApp
+
+start the backend server
+npm start
+
+open Frontend :
+Open client/index.html in your browser (or use Live Server in VS code).
+
+
 
 
