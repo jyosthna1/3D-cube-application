@@ -99,7 +99,4 @@ Start the server
 | `id`      | `string` | **Required**. Id of item to reset the cube data |
 
 
-## Authors
-
-- Jyosthna
 
