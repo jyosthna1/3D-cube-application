@@ -9,7 +9,7 @@ An Interactive 3D cube conroller built with Three.js, Node.js, MongoDB.
 - Real-time cube rotation and movement.
 - State persistence using **MongoDB**.
 - Responsive design with dynamic boundaries.
-- RESTful **API** integration for state managment.
+- RESTful **API** integration for state management.
 
 
 ## Functionalities
